@@ -1,4 +1,4 @@
-x = input("Digite o a senha:")
+x = input("Digite a senha:")
 
 if (x == "Flavinho"):
     print("Acesso Liberado")
