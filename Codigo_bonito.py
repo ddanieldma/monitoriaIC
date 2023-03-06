@@ -1,10 +1,9 @@
-x = 49
+x = input("Digite o a senha:")
 
-x = x - 42
-
-if (x == 10):
+if (x == "Flavinho"):
+    print("Acesso Liberado")
     print("Hello World")
 
 else:
-    print("Ola Mundo")
+    print("Acesso negado")
 
