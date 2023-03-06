@@ -1,13 +1,11 @@
-x = input("Digite a senha:")
-
-if (x == "Flavinho"):
-    print("Acesso Liberado")
-    print("Hello World")
+x = ""
 
 while x != "Flavinho":
-    print("Senha incorreta, tente novamente")
     x = input("Digite a senha: ")
+    if (x != "Flavinho"):
+        print("Senha incorreta, tente novamente")
 
 print("Acesso Liberado")
 print("Hello World")
+
 
